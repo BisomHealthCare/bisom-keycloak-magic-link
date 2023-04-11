@@ -5,12 +5,6 @@
   <packaging>jar</packaging>
   <version>0.9-SNAPSHOT</version>
 
-  <parent>
-    <groupId>com.github.xgp</groupId>
-    <artifactId>oss-parent</artifactId>
-    <version>0.7</version>
-  </parent>
-  
   <developers>
     <developer>
       <name>Phase Two, Inc.</name>
@@ -24,7 +18,7 @@
       <url>https://raw.githubusercontent.com/elastic/elasticsearch/main/licenses/ELASTIC-LICENSE-2.0.txt</url>
     </license>
   </licenses>
-  
+
   <properties>
     <java.version>11</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -118,7 +112,7 @@
       </plugin>
     </plugins>
   </build>
-  
+
   <dependencies>
     <!-- annotation processing helpers for logging and services -->
     <dependency>
